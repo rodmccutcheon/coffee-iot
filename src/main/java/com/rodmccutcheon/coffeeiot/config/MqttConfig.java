@@ -14,7 +14,7 @@ import org.springframework.integration.mqtt.support.DefaultPahoMessageConverter;
 
 @Configuration
 public class MqttConfig {
-    
+
     @Bean
     public MqttPahoClientFactory mqttClientFactory() {
         DefaultMqttPahoClientFactory factory = new DefaultMqttPahoClientFactory();
